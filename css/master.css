@@ -23,7 +23,7 @@ body {
 
 .row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .col-xs-12 img {
@@ -47,4 +47,14 @@ button {
   border-radius: 20px;
   font-size: 20px;
   width: 180px;
+}
+
+.savings {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  background-color: transparent;
+  color: #6CB518;
+  border: none;
+  text-align: center;
 }
